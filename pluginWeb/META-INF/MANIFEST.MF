@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PluginWeb
+Bundle-SymbolicName: pluginWeb
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: pluginweb.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;bundle-version="2.8.1"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: de.vogella.emf.webpage.model.webpage,
+ de.vogella.emf.webpage.model.webpage.impl,
+ de.vogella.emf.webpage.model.webpage.presentation,
+ de.vogella.emf.webpage.model.webpage.provider,
+ de.vogella.emf.webpage.model.webpage.util
